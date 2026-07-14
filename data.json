@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "language": "fr",
+    "accentColor": "#7c3aed",
+    "accentColorSoft": "#a78bfa",
+    "backgroundColor": "#faf7ff"
+  },
+  "basics": {
+    "name": "GUINET VALENTIN",
+    "title": "Développeur Étudiant",
+    "summary": "Étudiant en 3e année à Epitech, je suis passionné par le développement de logiciels, de sites web et de jeux vidéo.\n\nJe recherche activement une alternance dans le domaine de l'informatique, du 14 septembre 2026 au 28 février 2027, les jeudis et vendredis",
+    "location": "Tassin la Demi-Lune, France",
+    "email": "valentin.guinet@epitech.eu",
+    "phone": "+33 6 44 22 04 38",
+    "website": "",
+    "linkedin": "https://www.linkedin.com/in/valentin-guinet-ab683833b/",
+    "github": "https://github.com/VivicatcHub",
+    "photo": "me.png",
+    "show": {
+      "photo": true,
+      "location": true,
+      "phone": true,
+      "website": false,
+      "linkedin": false,
+      "github": true
+    }
+  },
+  "sections": {
+    "summary": { "title": "Profile", "show": true },
+    "skills": { "title": "Skills", "show": true },
+    "experiences": { "title": "Experience", "show": true },
+    "projects": { "title": "Projects", "show": true },
+    "education": { "title": "Education", "show": true },
+    "values": { "title": "Personal Values", "show": true },
+    "languages": { "title": "Languages", "show": true }
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["Python", "C", "C++", "C#", "Ruby", "PHP"],
+      "show": true
+    },
+    {
+      "category": "Web",
+      "items": ["React.js", "Next.js", "HTML/CSS", "JavaScript", "TypeScript"],
+      "show": true
+    },
+    {
+      "category": "Plus sur mon Portfolio...",
+      "items": [],
+      "show": true
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Stagiaire",
+      "company": "Axiva",
+      "location": "Tassin la Demi-Lune, France",
+      "start": "07/2024",
+      "end": "12/2024",
+      "highlights": [
+        "Expérience professionnelle d'une durée de 6 mois",
+        "Projet web d'envergure (fullstack) actuellement en production",
+        "Maintenance et amélioration de l'application de bureau Windows",
+        "Découverte et approfondissement de compétences techniques et professionnelles"
+      ],
+      "show": true
+    },
+    {
+      "role": "Responsable Communication puis Président",
+      "company": "Association Heaven of Dice",
+      "location": "Lyon 7e, France",
+      "start": "2024",
+      "end": "2026",
+      "highlights": [
+        "Création d'affiches et apprentissage des fondamentaux de la communication professionnelle",
+        "Gestion administrative d'une association étudiante (trésorerie, secrétariat, communication...)"
+      ],
+      "show": true
+    },
+    {
+      "role": "Membre puis Vice-Président",
+      "company": "Association Manta",
+      "location": "Lyon 7e, France",
+      "start": "2024",
+      "end": "2026",
+      "highlights": [
+        "Rédaction de sujets pour l'initiation des lycéens à l'informatique et au développement",
+        "Pédagogie et accompagnement auprès de lycéens"
+      ],
+      "show": true
+    }
+  ],
+  "projects": [
+    {
+      "name": "IDEpitech",
+      "description": "Création d'un interpréteur de langages informatiques en ligne (Python, HTML/CSS/JS...) permettant à nos utilisateurs d'apprendre l'informatique via de petits cours et des exercices ludiques, utile aux 'coding-clubs' de l'association Manta",
+      "link": "https://id-epitech.vercel.app",
+      "tags": ["Python", "HTML/CSS/JS", "Pédagogie", "React", "Web"],
+      "show": true
+    },
+    {
+      "name": "Zappy",
+      "description": "Projet Epitech visant à créer un jeu vidéo en trois parties : le serveur qui stocke les données des joueurs, l'interface graphique pour visualiser le résultat et l'intelligence artificielle qui contrôle les joueurs",
+      "link": "",
+      "tags": ["Python", "C", "C++", "Graphique"],
+      "show": true
+    }
+  ],
+  "education": [
+    {
+      "degree": "Expert en ingénierie logicielle & Expert en technologies de l'information",
+      "school": "Epitech Lyon",
+      "location": "Lyon 7e, France",
+      "start": "2024",
+      "end": "2029",
+      "details": "École d'informatique : réseau, web, bas-niveau (C, C++, Haskell, Rust...), graphique, système, algorithmie",
+      "show": true
+    },
+    {
+      "degree": "Baccalauréat Maths/NSI",
+      "school": "Institution Saint-Joseph Tassin",
+      "location": "Tassin la Demi-Lune, France",
+      "start": "2011",
+      "end": "2024",
+      "details": "Mention Bien",
+      "show": true
+    }
+  ],
+  "values": [
+    {
+      "value": "Adaptabilité",
+      "show": true
+    },
+    {
+      "value": "Autonomie",
+      "show": true
+    },
+    {
+      "value": "Communication",
+      "show": true
+    },
+    {
+      "value": "Gestion du Temps",
+      "show": true
+    },
+    {
+      "value": "Travail d'Équipe",
+      "show": true
+    }
+  ],
+  "languages": [
+    { "name": "Français", "level": "Natif", "show": true },
+    {
+      "name": "Anglais",
+      "level": "Intermédiaire supérieur (C1)",
+      "show": true
+    }
+  ],
+  "final": "CV réalisé en HTML"
+}
