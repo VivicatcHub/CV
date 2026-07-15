@@ -43,12 +43,14 @@ function render(data) {
     );
   if (b.website && s.website !== false)
     contactBits.push(
-      `<span><a href="${esc(b.website)}">${esc(b.website.replace(/^https?:\/\//, ""))}</a></span>`,
+      `<span><a href="${esc(b.website)}">Mon Portfolio</a></span>`,
     );
   if (b.linkedin && s.linkedin !== false)
-    contactBits.push(`<span><a href="${esc(b.linkedin)}">LinkedIn</a></span>`);
+    contactBits.push(
+      `<span><a href="${esc(b.linkedin)}">Mon LinkedIn</a></span>`,
+    );
   if (b.github && s.github !== false)
-    contactBits.push(`<span><a href="${esc(b.github)}">GitHub</a></span>`);
+    contactBits.push(`<span><a href="${esc(b.github)}">Mon GitHub</a></span>`);
 
   const photo =
     b.photo && s.photo === true
