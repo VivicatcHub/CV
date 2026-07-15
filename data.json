@@ -12,15 +12,15 @@
     "location": "Tassin la Demi-Lune, France",
     "email": "valentin.guinet@epitech.eu",
     "phone": "+33 6 44 22 04 38",
-    "website": "",
+    "website": "https://guinet-valentin.vercel.app/pro?l=fr",
     "linkedin": "https://www.linkedin.com/in/valentin-guinet-ab683833b/",
     "github": "https://github.com/VivicatcHub",
     "photo": "me.png",
     "show": {
       "photo": true,
       "location": true,
-      "phone": true,
-      "website": false,
+      "phone": false,
+      "website": true,
       "linkedin": false,
       "github": true
     }
