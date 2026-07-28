@@ -2,6 +2,12 @@
 
 A single-page, ATS-friendly CV generator. Edit `data.json`, open the page, export to PDF.
 
+## Images
+
+![Image 1](image.png)
+![Image 2](image2.png)
+![Image 3](image3.png)
+
 ## Files
 
 - `data.json` — all your CV content and show/hide toggles.
