@@ -27,7 +27,11 @@
   },
   "sections": {
     "summary": { "title": "Profile", "show": true },
-    "skills": { "title": "Skills", "show": true },
+    "skills": {
+      "title": "Skills",
+      "show": true,
+      "note": "More on my portfolio..."
+    },
     "experiences": { "title": "Experience", "show": true },
     "projects": { "title": "Projects", "show": true },
     "education": { "title": "Education", "show": true },

@@ -88,8 +88,11 @@ function render(data) {
           </div>`,
       )
       .join("");
+    const note = sec.skills?.note
+      ? `<div class="skill-note">${esc(sec.skills.note)}</div>`
+      : "";
     sideParts.push(
-      `<section><h2>${secTitle("skills", "Skills")}</h2>${groups}</section>`,
+      `<section><h2>${secTitle("skills", "Skills")}</h2>${groups}${note}</section>`,
     );
   }
 
@@ -171,7 +174,7 @@ function render(data) {
                 <div class="org">${esc(e.school)}</div>
               </div>
             </div>
-            ${e.details ? `<div class="desc" style="color:var(--ink-soft)">${esc(e.details)}</div>` : ""}
+            ${e.details ? `<div class="desc edu-details">${esc(e.details)}</div>` : ""}
             <div class="loc">${e.location ? esc(e.location) : ""}${e.location ? ` <span class="sep">·</span> ` : ""}${esc(e.start)} – ${esc(e.end)}</div>
           </div>`,
       )
