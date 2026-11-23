@@ -1,0 +1,20 @@
+# Audit notes (local only)
+AVIS.md
+
+# Exported CVs
+*.pdf
+
+# Environment / secrets
+.env*
+
+# Logs
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
