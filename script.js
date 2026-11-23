@@ -195,7 +195,7 @@ function render(data) {
           <div class="lang-list">${items}</div></section>`);
   }
 
-  mainParts.push(`<span class="final">${esc(data.final)}</span>`);
+  if (data.final) mainParts.push(`<span class="final">${esc(data.final)}</span>`);
 
   document.getElementById("root").innerHTML = `<div class="page">
           ${header}
@@ -232,7 +232,3 @@ loadJson("data.json")
     render(data);
   })
   .catch((err) => showError(err.message));
-
-document
-  .getElementById("download")
-  .addEventListener("click", () => window.print());
