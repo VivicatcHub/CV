@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "language": "en",
+    "accentColor": "#7c3aed",
+    "accentColorSoft": "#a78bfa",
+    "backgroundColor": "#faf7ff"
+  },
+  "basics": {
+    "name": "JANE DOE",
+    "title": "Student Developer",
+    "summary": "Third-year computer science student, passionate about software, web and game development.\n\nLooking for a work-study position in software development.",
+    "location": "Lyon, France",
+    "email": "jane.doe@example.com",
+    "phone": "+33 6 00 00 00 00",
+    "website": "https://example.com",
+    "linkedin": "https://www.linkedin.com/in/jane-doe",
+    "github": "https://github.com/jane-doe",
+    "photo": "",
+    "show": {
+      "photo": false,
+      "location": true,
+      "phone": false,
+      "website": true,
+      "linkedin": true,
+      "github": true
+    }
+  },
+  "sections": {
+    "summary": { "title": "Profile", "show": true },
+    "skills": { "title": "Skills", "show": true },
+    "experiences": { "title": "Experience", "show": true },
+    "projects": { "title": "Projects", "show": true },
+    "education": { "title": "Education", "show": true },
+    "values": { "title": "Personal Values", "show": true },
+    "languages": { "title": "Languages", "show": true }
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": ["Python", "C", "C++", "JavaScript"],
+      "show": true
+    },
+    {
+      "category": "Web",
+      "items": ["React", "Next.js", "HTML/CSS", "TypeScript"],
+      "show": true
+    }
+  ],
+  "experiences": [
+    {
+      "role": "Software Engineering Intern",
+      "company": "Example Corp",
+      "location": "Lyon, France",
+      "start": "07/2024",
+      "end": "12/2024",
+      "highlights": [
+        "Built and shipped a full-stack web application now in production",
+        "Maintained and improved a Windows desktop application"
+      ],
+      "show": true
+    },
+    {
+      "role": "President",
+      "company": "Student Board Game Club",
+      "location": "Lyon, France",
+      "start": "2024",
+      "end": "2026",
+      "highlights": [
+        "Ran a student association: treasury, administration and communication"
+      ],
+      "show": true
+    }
+  ],
+  "projects": [
+    {
+      "name": "Online Code Playground",
+      "description": "Browser-based interpreter for Python and HTML/CSS/JS with short lessons and exercises for beginners.",
+      "link": "https://example.com/playground",
+      "tags": ["Python", "React", "Web"],
+      "show": true
+    },
+    {
+      "name": "Multiplayer Game",
+      "description": "Game in three parts: a server holding the game state, a graphical client and an AI controlling the players.",
+      "link": "",
+      "tags": ["C", "C++", "Python"],
+      "show": true
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master's in Software Engineering",
+      "school": "Example School of Computing",
+      "location": "Lyon, France",
+      "start": "2024",
+      "end": "2029",
+      "details": "Networks, web, low-level programming, graphics, systems, algorithms",
+      "show": true
+    },
+    {
+      "degree": "High School Diploma (Maths / Computer Science)",
+      "school": "Example High School",
+      "location": "Lyon, France",
+      "start": "2021",
+      "end": "2024",
+      "details": "With honours",
+      "show": true
+    }
+  ],
+  "values": [
+    { "value": "Adaptability", "show": true },
+    { "value": "Autonomy", "show": true },
+    { "value": "Teamwork", "show": true }
+  ],
+  "languages": [
+    { "name": "French", "level": "Native", "show": true },
+    { "name": "English", "level": "Advanced (C1)", "show": true }
+  ],
+  "final": "Made with HTML"
+}

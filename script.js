@@ -209,7 +209,7 @@ function render(data) {
 function showError(msg) {
   document.getElementById("root").innerHTML = `
         <div class="error">
-          <h2 style="color:var(--accent)">Could not load data.json</h2>
+          <h2 style="color:var(--accent)">Could not load data.json or data.example.json</h2>
           <p>${esc(msg)}</p>
           <p>Browsers block <code>fetch()</code> on <code>file://</code> for security.
           Run a tiny local server from this folder, then open the printed URL:</p>
@@ -217,12 +217,20 @@ function showError(msg) {
         </div>`;
 }
 
-fetch("data.json", { cache: "no-store" })
-  .then((res) => {
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+// Your own data lives in data.json (git-ignored); fall back to the template.
+const loadJson = (file) =>
+  fetch(file, { cache: "no-store" }).then((res) => {
+    if (res.status === 404) return null;
+    if (!res.ok) throw new Error(`${file}: HTTP ${res.status}`);
     return res.json();
+  });
+
+loadJson("data.json")
+  .then((data) => data ?? loadJson("data.example.json"))
+  .then((data) => {
+    if (!data) throw new Error("No data file found");
+    render(data);
   })
-  .then(render)
   .catch((err) => showError(err.message));
 
 document
