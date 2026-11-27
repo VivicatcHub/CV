@@ -21,3 +21,4 @@ Thumbs.db
 
 # Your personal CV data (keep a backup elsewhere)
 data.json
+exports/
