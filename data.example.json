@@ -2,8 +2,7 @@
   "meta": {
     "language": "en",
     "accentColor": "#7c3aed",
-    "accentColorSoft": "#a78bfa",
-    "backgroundColor": "#faf7ff"
+    "file": "CV Jane Doe"
   },
   "basics": {
     "name": "JANE DOE",
@@ -16,6 +15,7 @@
     "linkedin": "https://www.linkedin.com/in/jane-doe",
     "github": "https://github.com/jane-doe",
     "photo": "",
+    "photoZoom": 1,
     "show": {
       "photo": false,
       "location": true,
@@ -77,6 +77,7 @@
   ],
   "projects": [
     {
+      "id": "playground",
       "name": "Online Code Playground",
       "description": "Browser-based interpreter for Python and HTML/CSS/JS with short lessons and exercises for beginners.",
       "link": "https://example.com/playground",
@@ -84,6 +85,7 @@
       "show": true
     },
     {
+      "id": "multiplayer-game",
       "name": "Multiplayer Game",
       "description": "Game in three parts: a server holding the game state, a graphical client and an AI controlling the players.",
       "link": "",
@@ -119,6 +121,41 @@
   "languages": [
     { "name": "French", "level": "Native", "show": true },
     { "name": "English", "level": "Advanced (C1)", "show": true }
+  ],
+  "compos": [
+    {
+      "id": "game-dev",
+      "label": "Game dev",
+      "file": "CV Jane Doe - Game dev",
+      "meta": { "accentColor": "#e11d48" },
+      "basics": {
+        "title": "Student Game Developer",
+        "summary": "Third-year computer science student who loves gameplay, graphics and networked games.\n\nLooking for a game development internship."
+      },
+      "highlight": ["C++", "Python"],
+      "projects": [
+        {
+          "id": "multiplayer-game",
+          "description": "Networked game: C++ server, 3D client and a Python AI driving the players."
+        }
+      ]
+    },
+    {
+      "id": "web",
+      "label": "Web fullstack",
+      "meta": { "accentColor": "#0d9488" },
+      "basics": { "title": "Student Web Developer" },
+      "highlight": ["React", "Next.js", "TypeScript"],
+      "experiences": [
+        {
+          "id": "example-corp",
+          "highlights": [
+            "Built and shipped a full-stack web application now in production"
+          ]
+        }
+      ],
+      "projects": ["playground"]
+    }
   ],
   "final": "Made with HTML"
 }
